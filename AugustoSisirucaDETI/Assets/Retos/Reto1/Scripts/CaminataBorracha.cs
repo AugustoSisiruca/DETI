@@ -28,8 +28,8 @@ public class CaminataBorracha : MonoBehaviour
 
     void AlgoritmoBorracho()
     {
-        int coordenadaX = Random.Range(0, 10);
-        int coordenadaY = Random.Range(0, 10);
+        int coordenadaX = Random.Range(0, 100);
+        int coordenadaY = Random.Range(0, 100);
         float step = mapMatrix.Length*0.25f;
         
 
